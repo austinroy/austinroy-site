@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
-import './assets/css/creative.min.css';
-import './assets/vendor/bootstrap/css/bootstrap.min.css';
-import './assets/less/variables.less';
-import './assets/less/mixins.less';
-import './assets/less/creative.less';
-import './assets/vendor/font-awesome/css/font-awesome.min.css';
-import './assets/vendor/magnific-popup/magnific-popup.css';
-import About from './Components/Common/about.js';
+// Import Styles
+import './css/bootstrap.min.css';
+import './css/landing-page.css';
+import './font-awesome/css/font-awesome.min.css';
+// Import components
+import Footer from './Components/Common/footer.js';
 import Contact from './Components/Common/contact.js';
 import Header from './Components/Common/header.js';
 import MainNav from './Components/Common/mainNav.js';
@@ -19,9 +16,10 @@ class App extends Component {
       <div>
         {this.props.children}
         <MainNav />
-        <About />
+        <Header />
         <Services />
         <Contact />
+        <Footer />
       </div>
     );
   }
