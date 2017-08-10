@@ -8,7 +8,7 @@ import Footer from './Components/Common/footer.js';
 import Contact from './Components/Common/contact.js';
 import Header from './Components/Common/header.js';
 import MainNav from './Components/Common/mainNav.js';
-import Services from './Components/Common/services.js';
+import About from './Components/Common/about.js';
 
 class App extends Component {
   render() {
@@ -17,7 +17,7 @@ class App extends Component {
         {this.props.children}
         <MainNav />
         <Header />
-        <Services />
+        <About />
         <Contact />
         <Footer />
       </div>

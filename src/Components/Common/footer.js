@@ -9,7 +9,7 @@ class Footer extends Component {
                   <div className="col-lg-12">
                       <ul className="list-inline">
                           <li>
-                              <a href="#">Home</a>
+                              <a href="#top">Home</a>
                           </li>
                           <li className="footer-menu-divider">&sdot;</li>
                           <li>
@@ -17,14 +17,10 @@ class Footer extends Component {
                           </li>
                           <li className="footer-menu-divider">&sdot;</li>
                           <li>
-                              <a href="#services">Services</a>
-                          </li>
-                          <li className="footer-menu-divider">&sdot;</li>
-                          <li>
                               <a href="#contact">Contact</a>
                           </li>
                       </ul>
-                      <p className="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                      <p className="copyright text-muted small">Copyright &copy; Austin Roy 2017. All Rights Reserved</p>
                   </div>
               </div>
           </div>
